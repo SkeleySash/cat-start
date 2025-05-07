@@ -10,7 +10,7 @@ let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 const default_configuration = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Yagoona",
     scale: "C",
   },
   clock: {
@@ -21,14 +21,15 @@ const default_configuration = {
     engines: {
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
+      b: ["https://search.brave.com/search?q=", "Brave"],
     },
   },
   keybindings: {
     "s": "search-bar",
   },
   disabled: [],
-  localIcons: false,
-  fastlink: "https://chat.openai.com",
+  localIcons: true,
+  fastlink: "https://news.ycombinator.com/news",
   openLastVisitedTab: true,
   tabs: [
     {
